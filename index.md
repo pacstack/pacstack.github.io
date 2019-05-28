@@ -10,12 +10,12 @@ layout: home
 >
 > We present authenticated call stack (ACS), an approach that uses chained message authentication codes (MACs) to achieve comparable security without requiring additional hardware support. We present PACStack, a realization of ACS on the ARMv8.3-A architecture, using its general purpose hardware mechanism for pointer authentication (PA). Via a rigorous security analysis, we show that PACStack achieves security comparable to hardware-assisted shadow stacks without requiring dedicated hardware. We demonstrate that PACStack's performance overhead is negligible (<1%). 
 
-**PACStack: an Authenticated Call Stack**
+**PACStack: an Authenticated Call Stack** (2019)  
 *Hans Liljestrand*,
 *Thomas Nyman*,
 *Lachlan Gunn*,
 *Jan-Erik Ekberg*,
-*N. Asokan*
+*N. Asokan*  
 [arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/abs/1905.10242)
 
 ## Source Code
