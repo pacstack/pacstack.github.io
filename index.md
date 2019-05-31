@@ -13,14 +13,22 @@ layout: home
 **PACStack: an Authenticated Call Stack** (2019)  
 *Hans Liljestrand*,
 *Thomas Nyman*,
-*Lachlan Gunn*,
+*Lachlan J. Gunn*,
 *Jan-Erik Ekberg*,
 *N. Asokan*  
 [arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/abs/1905.10242)
 
+**Late Breaking Results: Authenticated Call Stack**  
+*Hans Liljestrand*,
+*Thomas Nyman*,
+*Jan-Erik Ekberg*,
+*N. Asokan*  
+ACM DAC '19 (poster to appear at)
+
+
 ## Source Code
 
-To be made available on publication.
+To be made available.
 
 ## About
 
