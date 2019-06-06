@@ -18,14 +18,12 @@ layout: home
 *N. Asokan*  
 [arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/abs/1905.10242)
 
-Poster: **Late Breaking Results: Authenticated Call Stack** (2019)  
+[Poster](/assets/pdfs/PACStack.DAC56-LBR-poster.pdf) **Late Breaking Results: Authenticated Call Stack** (2019)  
 *Hans Liljestrand*,
 *Thomas Nyman*,
 *Jan-Erik Ekberg*,
 *N. Asokan*  
-ACM DAC '19   
-[DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3322469)  
-[poster](/assets/pdfs/PACStack.DAC56-LBR-poster.pdf)
+ACM DAC '19 [DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3322469)  
 
 ## Source Code
 
