@@ -23,7 +23,7 @@ layout: home
 *Thomas Nyman*,
 *Jan-Erik Ekberg*,
 *N. Asokan*  
-ACM DAC '19 [DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3322469)  
+ACM DAC '19,  [DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3322469)
 
 ## Source Code
 
