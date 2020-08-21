@@ -6,9 +6,10 @@ layout: home
 # title: "PACStack: an Authenticated Call Stack"
 ---
 
-> A popular run-time attack technique is to compromise the control-flow integrity of a program by modifying function return addresses on the stack. So far, shadow stacks have proven to be essential for comprehensively preventing return address manipulation. Shadow stacks record return addresses in integrity-protected memory, secured with hardware-assistance or software access control. Software shadow stacks incur high overheads or trade off security for efficiency. Hardware-assisted shadow stacks are efficient and secure, but require the deployment of special-purpose hardware.
+
+> A popular run-time attack technique is to compromise the control-flow integrity of a program by modifying function return addresses on the stack. So far, shadow stacks have proven to be essential for _comprehensively preventing_ return address manipulation. Shadow stacks record return addresses in integrity-protected memory secured with hardware-assistance or software access control. Software shadow stacks incur high overheads or trade off security for efficiency. Hardware-assisted shadow stacks are efficient and secure, but require the deployment of special-purpose hardware.
 >
-> We present authenticated call stack (ACS), an approach that uses chained message authentication codes (MACs) to achieve comparable security without requiring additional hardware support. We present PACStack, a realization of ACS on the ARMv8.3-A architecture, using its general purpose hardware mechanism for pointer authentication (PA). Via a rigorous security analysis, we show that PACStack achieves security comparable to hardware-assisted shadow stacks without requiring dedicated hardware. We demonstrate that PACStack's performance overhead is negligible (<1%). 
+> We present _authenticated call stack_ (ACS), an approach that uses chained message authentication codes (MACs). Our prototype, PACStack, uses the ARM general purpose hardware mechanism for pointer authentication (PA) to implement ACS. Via a rigorous security analysis, we show that PACStack achieves security comparable to hardware-assisted shadow stacks _without requiring dedicated hardware_. We demonstrate that PACStack's performance overhead is small (~3%).
 
 **PACStack: an Authenticated Call Stack** (2019)  
 *Hans Liljestrand*,
