@@ -34,6 +34,7 @@ Source code for the LLVM PACstack implementation is available at
 ## About
 
 This work is part of the [hardware-assisted runtime
-protection](https://ssg.aalto.fi/research/projects/harp) efforts of the [Secure
-Systems Group](https://ssg.aalto.fi) at the [Aalto
-University](https://www.aalto.fi) in Espoo, Finland.
+protection](https://ssg.aalto.fi/research/projects/harp) efforts of the Secure
+Systems Group at [University of
+Waterloo](https://crysp.uwaterloo.ca/research/SSG) in Canada and [Aalto
+University](https://ssg.aalto.fi) in Finland.
