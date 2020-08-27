@@ -28,7 +28,7 @@ ACM DAC '19,  [DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3
 
 ## Source Code
 
-Source code for the LLVM PACstack implementation is available at
+Source code for the LLVM PACStack implementation is available at
 [github.com/pacstack/pacstack-llvm](https://github.com/pacstack/pacstack-llvm).
 
 ## About
@@ -38,3 +38,5 @@ protection](https://ssg.aalto.fi/research/projects/harp) efforts of the Secure
 Systems Group at [University of
 Waterloo](https://crysp.uwaterloo.ca/research/SSG) in Canada and [Aalto
 University](https://ssg.aalto.fi) in Finland.
+
+Other ARMv8.3-PAuth projects by SSG are at [pointer-authentication.github.io/](https://pointer-authentication.github.io).
