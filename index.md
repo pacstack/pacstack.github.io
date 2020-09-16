@@ -29,7 +29,9 @@ ACM DAC '19,  [DOI:10.1145/3316781.3322469](http://doi.acm.org/10.1145/3316781.3
 ## Source Code
 
 Source code for the LLVM PACStack implementation is available at
-[github.com/pacstack/pacstack-llvm](https://github.com/pacstack/pacstack-llvm).
+[github.com/pacstack/](https://github.com/pacstack/).
+
+Please see our [**Quick Start Guide**](quickstart.md) for build instructions.
 
 ## About
 
