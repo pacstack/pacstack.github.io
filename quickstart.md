@@ -120,6 +120,21 @@ $ ./configure --host=aarch64-unknown-linux-gnu \
     LDFLAGS="-Wl,--dynamic-linker=<i>/path/to/linaro/sysroot</i>/lib/ld-linux-aarch64.so.1"
 </pre>
 
+**Note:** running the PACStack LLVM compiler outside the Singularity buildhost requires
+LLVM's runtime dependencies to be installed on the host system. On Ubuntu 20.04,
+installing the `llvm-9-runtime` package is sufficient. We however recommend using
+the buildhost for cross compiling, in which case the paths can be set as follows:
+
+<pre>
+$ ./build.sh --shell manifests/x86_64.aarch64-linux-gnu-pacstack-llvm-9.0.1-release-manifest.txt
+$ cd <i>path/to/source/directory</i>
+$ ./configure --host=aarch64-unknown-linux-gnu \
+    CC=/workspace/builds/destdir/x86_64-linux-gnu/bin/clang \
+    LDSHARED=/workspace/builds/destdir/x86_64-linux-gnu/bin/clang \
+    CFLAGS="--target=aarch64-linux-gnu --sysroot=/workspace/sysroots/aarch64-linux-gnu/ --gcc-toolchain=/workspace/toolchains/gcc/x86_64-linux-gnu/" \
+    LDFLAGS="-Wl,--dynamic-linker=/workspace/sysroots/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1"
+</pre>
+
 Instrumented binaries can be run using either ARM's [Armv8-A Architecture Fixed
 Virtual Platform (FVP)](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms) simulation models, or the [QEMU](https://www.qemu.org/) machine emulator version
 4.0 or newer. The instructions here assume QEMU and that binary formats for the
