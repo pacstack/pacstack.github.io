@@ -23,7 +23,7 @@ Ubuntu and other Debian derivative users can install the `binfmt-support` and
 To install Singularity we recommend following the **Quick Start** guide at:  
 [https://sylabs.io/guides/3.5/user-guide/quick_start.html](https://sylabs.io/guides/3.5/user-guide/quick_start.html)
 
-## Building the Singularity buildhost container
+### Building the Singularity buildhost container
 
 Once dependencies have been installed, clone the buildhelper repository and
 build the Singularity container for performing builds:
@@ -83,7 +83,7 @@ the following command:
 This will download all necessary dependencies, build LLVM and automatically run
 regression tests on binaries produced by the new compiler. Once the build has
 completed successfully the PACStack toolchain can be found in
-`llvm-9.0.1-pacstack-release/destdir/aarch64-linux-gnu/`.
+`llvm-9.0.1-pacstack-release/builds/destdir/aarch64-linux-gnu/`.
 
 ### Cross compiling with PACStack LLVM
 
@@ -107,7 +107,7 @@ Note that since LLVM project does not have implementations of all the parts of
 toolchain and library dependencies it must be combined with a GCC cross compile
 toolchain to provide missing components. The buildhelper scripts obtain a copy
 of Linaro toolchain (available at [https://www.linaro.org/downloads/](https://www.linaro.org/downloads/)) and
-installs it at `llvm-9.0.1-pacstack-release/sysroots/aarch64-linux-gnu/`.
+installs it at `llvm-9.0.1-pacstack-release/toolchains/aarch64-linux-gnu/`.
 
 Source code packages that provides a configuration scripts produced using
 Autoconf can generally be cross compiled by invoking `./configure` as follows:
